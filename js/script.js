@@ -34,7 +34,7 @@
             userScoreSpan.innerHTML = userScore;
             computerScore = 0;
             computerScoreSpan.innerHTML = computerScore;
-            while (output.hasChildNodes ()) {
+            while (output.hasChildNodes()) {
                 output.removeChild(output.firstChild);
             }
         }
